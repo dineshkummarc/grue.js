@@ -1,0 +1,24 @@
+{
+  "name": "grue.js",
+  "version": "0.0.0",
+  "author": "James Bliss <james.bliss@astro73.com>",
+  "description": "A system for client-side templating, inspired by Genshi",
+  "repository": {
+    "type": "git",
+    "url": "https://astronouth7303@github.com/astronouth7303/grue.js.git"
+  },
+  "keywords": [
+    "cli",
+    "http",
+    "server"
+  ],
+  "dependencies" : {
+    "libxmljs"   :  "*"
+  },
+  "bundleDependencies": [
+  ],
+  "license": "",
+  "engine": {
+    "node": "*"
+  }
+}
