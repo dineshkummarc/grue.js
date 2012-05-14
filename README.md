@@ -1,4 +1,4 @@
 template.js
 ===========
 
-A system for client-side templating, inspired by Genshi
+template.js is a Genshi-like templating system for web pages, using a server-side compiler to generate .js files to serve.
