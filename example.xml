@@ -1,0 +1,14 @@
+<?xml version="1.1" ?>
+
+<?js
+var foo;
+console.log("Hello");
+?>
+
+<js:root xmlns:js="http://astro73.com/xml/grue/js">
+	<foo js:if="bar">
+		Hi.
+	</foo>
+	<!-- Stick more content here -->
+	<![CDATA[ Some more stuff goes here ]]>
+</js:root>
