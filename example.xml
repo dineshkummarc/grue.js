@@ -6,9 +6,11 @@ console.log("Hello");
 ?>
 
 <js:root xmlns:js="http://astro73.com/xml/grue/js">
-	<foo js:if="bar">
-		Hi.
-	</foo>
+	<js:if when="bar">
+        <foo>
+    		Hi.
+    	</foo>
+    </js:if>
 	<!-- Stick more content here -->
 	<![CDATA[ Some more stuff goes here ]]>
 </js:root>
