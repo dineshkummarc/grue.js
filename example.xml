@@ -5,7 +5,7 @@ var foo;
 console.log("Hello");
 ?>
 
-<js:root xmlns:js="http://astro73.com/xml/grue/js">
+<js:root xmlns:js="http://astro73.com/xml/grue/js" js:name="ExampleTemplate" js:args="gender notes user">
 	<js:if when="gender">
 		<p>Hello 
 			<js:select on="gender">
