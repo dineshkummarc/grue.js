@@ -6,11 +6,27 @@ console.log("Hello");
 ?>
 
 <js:root xmlns:js="http://astro73.com/xml/grue/js">
-	<js:if when="bar">
-        <foo>
-    		Hi.
-    	</foo>
-    </js:if>
+	<js:if when="gender">
+		<p>Hello 
+			<js:select on="gender">
+				<js:case if="male">sir.</js:case>
+				<js:case if="female">ma'am.</js:case>
+				<js:default>person.</js:default>
+			</js:select>
+		</p>
+	</js:if>
+	<js:elseif when="notes">
+		<p>We have some items.</p>
+		<js:for each="note in notes">
+			<li>${foo}$</li>
+		</js:for>
+	</js:elseif>
+	<js:else>
+		<js:var name="user" value="request.user.name">
+			<p>Hello ${user}$. I hope you are having a good day.</p>
+			<js:contents />
+		</js:var>
+	</js:else>
 	<!-- Stick more content here -->
 	<![CDATA[ Some more stuff goes here ]]>
 </js:root>
