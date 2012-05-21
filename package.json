@@ -13,7 +13,9 @@
     "server"
   ],
   "dependencies" : {
-    "node-xml"   :  "*"
+    "sax"   : "*",
+    "jsdom" : "*",
+    "jast"  :  "*"
   },
   "bundleDependencies": [
   ],
